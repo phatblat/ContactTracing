@@ -15,6 +15,7 @@
 		F814A5FA2443B66C00D0AAF8 /* RollingProximityIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F814A5F92443B66C00D0AAF8 /* RollingProximityIdentifier.swift */; };
 		F814A5FC2443B69000D0AAF8 /* DayNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = F814A5FB2443B69000D0AAF8 /* DayNumber.swift */; };
 		F814A5FE2443B69E00D0AAF8 /* TimeIntervalNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = F814A5FD2443B69E00D0AAF8 /* TimeIntervalNumber.swift */; };
+		F814A6012443C22500D0AAF8 /* SymmetricKey+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F814A6002443C22500D0AAF8 /* SymmetricKey+Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		F814A5F92443B66C00D0AAF8 /* RollingProximityIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollingProximityIdentifier.swift; sourceTree = "<group>"; };
 		F814A5FB2443B69000D0AAF8 /* DayNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayNumber.swift; sourceTree = "<group>"; };
 		F814A5FD2443B69E00D0AAF8 /* TimeIntervalNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIntervalNumber.swift; sourceTree = "<group>"; };
+		F814A6002443C22500D0AAF8 /* SymmetricKey+Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SymmetricKey+Data.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				F814A5F92443B66C00D0AAF8 /* RollingProximityIdentifier.swift */,
 				F814A5FD2443B69E00D0AAF8 /* TimeIntervalNumber.swift */,
 				F814A5F52443B64F00D0AAF8 /* TracingKey.swift */,
+				F814A6002443C22500D0AAF8 /* SymmetricKey+Data.swift */,
 			);
 			path = Types;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				F814A5F62443B64F00D0AAF8 /* TracingKey.swift in Sources */,
 				F814A5FA2443B66C00D0AAF8 /* RollingProximityIdentifier.swift in Sources */,
 				F814A5FE2443B69E00D0AAF8 /* TimeIntervalNumber.swift in Sources */,
+				F814A6012443C22500D0AAF8 /* SymmetricKey+Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,8 @@ Implemented as a macOS framework.
 - [Cryptography Specification](https://blog.google/documents/56/Contact_Tracing_-_Cryptography_Specification.pdf)
 - [Bluetooth Specification](https://blog.google/documents/58/Contact_Tracing_-_Bluetooth_Specification_v1.1_RYGZbKW.pdf)
 - [Android Contact Tracing API](https://blog.google/documents/55/Android_Contact_Tracing_API.pdf)
+- HKDF [RFC 5869](https://tools.ietf.org/html/rfc5869)
+- HMAC [RFC 2104](https://tools.ietf.org/html/rfc2104)
 
 ## 📄 License
 

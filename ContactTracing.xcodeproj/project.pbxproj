@@ -10,6 +10,11 @@
 		F814A5E52443AE3A00D0AAF8 /* ContactTracing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F814A5DB2443AE3A00D0AAF8 /* ContactTracing.framework */; };
 		F814A5EA2443AE3A00D0AAF8 /* ContactTracingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F814A5E92443AE3A00D0AAF8 /* ContactTracingTests.swift */; };
 		F814A5EC2443AE3A00D0AAF8 /* ContactTracing.h in Headers */ = {isa = PBXBuildFile; fileRef = F814A5DE2443AE3A00D0AAF8 /* ContactTracing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F814A5F62443B64F00D0AAF8 /* TracingKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F814A5F52443B64F00D0AAF8 /* TracingKey.swift */; };
+		F814A5F82443B65E00D0AAF8 /* DailyTracingKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F814A5F72443B65E00D0AAF8 /* DailyTracingKey.swift */; };
+		F814A5FA2443B66C00D0AAF8 /* RollingProximityIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F814A5F92443B66C00D0AAF8 /* RollingProximityIdentifier.swift */; };
+		F814A5FC2443B69000D0AAF8 /* DayNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = F814A5FB2443B69000D0AAF8 /* DayNumber.swift */; };
+		F814A5FE2443B69E00D0AAF8 /* TimeIntervalNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = F814A5FD2443B69E00D0AAF8 /* TimeIntervalNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +34,11 @@
 		F814A5E42443AE3A00D0AAF8 /* ContactTracingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactTracingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F814A5E92443AE3A00D0AAF8 /* ContactTracingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTracingTests.swift; sourceTree = "<group>"; };
 		F814A5EB2443AE3A00D0AAF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F814A5F52443B64F00D0AAF8 /* TracingKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracingKey.swift; sourceTree = "<group>"; };
+		F814A5F72443B65E00D0AAF8 /* DailyTracingKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTracingKey.swift; sourceTree = "<group>"; };
+		F814A5F92443B66C00D0AAF8 /* RollingProximityIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollingProximityIdentifier.swift; sourceTree = "<group>"; };
+		F814A5FB2443B69000D0AAF8 /* DayNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayNumber.swift; sourceTree = "<group>"; };
+		F814A5FD2443B69E00D0AAF8 /* TimeIntervalNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIntervalNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +83,7 @@
 			children = (
 				F814A5DE2443AE3A00D0AAF8 /* ContactTracing.h */,
 				F814A5DF2443AE3A00D0AAF8 /* Info.plist */,
+				F814A5FF2443B71800D0AAF8 /* Types */,
 			);
 			path = ContactTracing;
 			sourceTree = "<group>";
@@ -84,6 +95,18 @@
 				F814A5EB2443AE3A00D0AAF8 /* Info.plist */,
 			);
 			path = ContactTracingTests;
+			sourceTree = "<group>";
+		};
+		F814A5FF2443B71800D0AAF8 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				F814A5F72443B65E00D0AAF8 /* DailyTracingKey.swift */,
+				F814A5FB2443B69000D0AAF8 /* DayNumber.swift */,
+				F814A5F92443B66C00D0AAF8 /* RollingProximityIdentifier.swift */,
+				F814A5FD2443B69E00D0AAF8 /* TimeIntervalNumber.swift */,
+				F814A5F52443B64F00D0AAF8 /* TracingKey.swift */,
+			);
+			path = Types;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +171,7 @@
 				TargetAttributes = {
 					F814A5DA2443AE3A00D0AAF8 = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 					};
 					F814A5E32443AE3A00D0AAF8 = {
 						CreatedOnToolsVersion = 11.4;
@@ -195,6 +219,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F814A5F82443B65E00D0AAF8 /* DailyTracingKey.swift in Sources */,
+				F814A5FC2443B69000D0AAF8 /* DayNumber.swift in Sources */,
+				F814A5F62443B64F00D0AAF8 /* TracingKey.swift in Sources */,
+				F814A5FA2443B66C00D0AAF8 /* RollingProximityIdentifier.swift in Sources */,
+				F814A5FE2443B69E00D0AAF8 /* TimeIntervalNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +368,7 @@
 		F814A5F02443AE3A00D0AAF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -356,6 +386,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "co.log-g.ContactTracing";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -363,6 +394,7 @@
 		F814A5F12443AE3A00D0AAF8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -387,6 +419,7 @@
 		F814A5F32443AE3A00D0AAF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = MTGSZH8QM4;
@@ -405,6 +438,7 @@
 		F814A5F42443AE3A00D0AAF8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = MTGSZH8QM4;

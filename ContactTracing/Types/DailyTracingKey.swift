@@ -32,7 +32,11 @@ struct DailyTracingKey {
         // Concatenate prefix with day number
         let info = "\(prefix)\(dayNumber)".data(using: .utf8)!
 
-        guard let data = hkdf_sha256(tracingKey.key.data, salt: nil, info: info, outputSize: size) else { fatalError() }
+//        guard let data = hkdf_sha256(tracingKey.key.dataRepresentation, salt: nil, info: info, outputSize: size) else { fatalError() }
+
+        guard let data = tracingKey.secret.hkdfDerivedSymmetricKey(using: <#T##HashFunction.Protocol#>, salt: <#T##DataProtocol#>, sharedInfo: <#T##DataProtocol#>, outputByteCount: <#T##Int#>)
+            , salt: nil, info: info, outputSize: size) else { fatalError() }
+        key = SymmetricKey(data: data)
 
         self.date = Date()
         self.dayNumber = dayNumber

@@ -13,12 +13,12 @@ import CryptoKit
 ///   tk ← CRNG(32)
 /// The Tracing Key never leaves the device.
 struct TracingKey {
-    let secret: SharedSecret
+//    let secret: SharedSecret
     let key: SymmetricKey
     let date: Date
 
     init() {
-        secret = Curve25519.KeyAgreement.PrivateKey().sharedSecretFromKeyAgreement(with: <#T##Curve25519.KeyAgreement.PublicKey#>)
+//        secret = Curve25519.KeyAgreement.PrivateKey().sharedSecretFromKeyAgreement(with: <#T##Curve25519.KeyAgreement.PublicKey#>)
         key = SymmetricKey(size: .bits128)
         date = Date()
     }

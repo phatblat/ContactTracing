@@ -16,6 +16,22 @@
 		F814A5FC2443B69000D0AAF8 /* DayNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = F814A5FB2443B69000D0AAF8 /* DayNumber.swift */; };
 		F814A5FE2443B69E00D0AAF8 /* TimeIntervalNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = F814A5FD2443B69E00D0AAF8 /* TimeIntervalNumber.swift */; };
 		F814A6012443C22500D0AAF8 /* ContiguousBytes+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F814A6002443C22500D0AAF8 /* ContiguousBytes+Data.swift */; };
+		F8D3256C244D3E3A007CD35F /* CTStateGetRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D3256A244D3E3A007CD35F /* CTStateGetRequest.h */; };
+		F8D3256D244D3E3A007CD35F /* CTStateGetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D3256B244D3E3A007CD35F /* CTStateGetRequest.m */; };
+		F8D32570244D40B7007CD35F /* CTStateSetRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D3256E244D40B7007CD35F /* CTStateSetRequest.h */; };
+		F8D32571244D40B7007CD35F /* CTStateSetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D3256F244D40B7007CD35F /* CTStateSetRequest.m */; };
+		F8D32575244D44C6007CD35F /* CTExposureDetectionSession.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D32573244D44C6007CD35F /* CTExposureDetectionSession.h */; };
+		F8D32576244D44C6007CD35F /* CTExposureDetectionSession.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D32574244D44C6007CD35F /* CTExposureDetectionSession.m */; };
+		F8D32579244D4661007CD35F /* CTExposureDetectionSummary.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D32577244D4661007CD35F /* CTExposureDetectionSummary.h */; };
+		F8D3257A244D4661007CD35F /* CTExposureDetectionSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D32578244D4661007CD35F /* CTExposureDetectionSummary.m */; };
+		F8D3257D244D469E007CD35F /* CTSelfTracingInfoRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D3257B244D469D007CD35F /* CTSelfTracingInfoRequest.h */; };
+		F8D3257E244D469E007CD35F /* CTSelfTracingInfoRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D3257C244D469E007CD35F /* CTSelfTracingInfoRequest.m */; };
+		F8D32581244D4747007CD35F /* CTSelfTracingInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D3257F244D4747007CD35F /* CTSelfTracingInfo.h */; };
+		F8D32582244D4747007CD35F /* CTSelfTracingInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D32580244D4747007CD35F /* CTSelfTracingInfo.m */; };
+		F8D32585244D4775007CD35F /* CTContactInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D32583244D4775007CD35F /* CTContactInfo.h */; };
+		F8D32586244D4775007CD35F /* CTContactInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D32584244D4775007CD35F /* CTContactInfo.m */; };
+		F8D32589244D47B2007CD35F /* CTDailyTracingKey.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D32587244D47B2007CD35F /* CTDailyTracingKey.h */; };
+		F8D3258A244D47B2007CD35F /* CTDailyTracingKey.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D32588244D47B2007CD35F /* CTDailyTracingKey.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +57,24 @@
 		F814A5FB2443B69000D0AAF8 /* DayNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayNumber.swift; sourceTree = "<group>"; };
 		F814A5FD2443B69E00D0AAF8 /* TimeIntervalNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIntervalNumber.swift; sourceTree = "<group>"; };
 		F814A6002443C22500D0AAF8 /* ContiguousBytes+Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContiguousBytes+Data.swift"; sourceTree = "<group>"; };
+		F8D3256A244D3E3A007CD35F /* CTStateGetRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTStateGetRequest.h; sourceTree = "<group>"; };
+		F8D3256B244D3E3A007CD35F /* CTStateGetRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTStateGetRequest.m; sourceTree = "<group>"; };
+		F8D3256E244D40B7007CD35F /* CTStateSetRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTStateSetRequest.h; sourceTree = "<group>"; };
+		F8D3256F244D40B7007CD35F /* CTStateSetRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTStateSetRequest.m; sourceTree = "<group>"; };
+		F8D32572244D40E6007CD35F /* CTErrorHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTErrorHandler.h; sourceTree = "<group>"; };
+		F8D32573244D44C6007CD35F /* CTExposureDetectionSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTExposureDetectionSession.h; sourceTree = "<group>"; };
+		F8D32574244D44C6007CD35F /* CTExposureDetectionSession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTExposureDetectionSession.m; sourceTree = "<group>"; };
+		F8D32577244D4661007CD35F /* CTExposureDetectionSummary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTExposureDetectionSummary.h; sourceTree = "<group>"; };
+		F8D32578244D4661007CD35F /* CTExposureDetectionSummary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTExposureDetectionSummary.m; sourceTree = "<group>"; };
+		F8D3257B244D469D007CD35F /* CTSelfTracingInfoRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTSelfTracingInfoRequest.h; sourceTree = "<group>"; };
+		F8D3257C244D469E007CD35F /* CTSelfTracingInfoRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTSelfTracingInfoRequest.m; sourceTree = "<group>"; };
+		F8D3257F244D4747007CD35F /* CTSelfTracingInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTSelfTracingInfo.h; sourceTree = "<group>"; };
+		F8D32580244D4747007CD35F /* CTSelfTracingInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTSelfTracingInfo.m; sourceTree = "<group>"; };
+		F8D32583244D4775007CD35F /* CTContactInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTContactInfo.h; sourceTree = "<group>"; };
+		F8D32584244D4775007CD35F /* CTContactInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTContactInfo.m; sourceTree = "<group>"; };
+		F8D32587244D47B2007CD35F /* CTDailyTracingKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTDailyTracingKey.h; sourceTree = "<group>"; };
+		F8D32588244D47B2007CD35F /* CTDailyTracingKey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTDailyTracingKey.m; sourceTree = "<group>"; };
+		F8D3258B244D4AD6007CD35F /* CTManagerState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTManagerState.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +117,7 @@
 		F814A5DD2443AE3A00D0AAF8 /* ContactTracing */ = {
 			isa = PBXGroup;
 			children = (
+				F8D32569244D3E0B007CD35F /* Objc */,
 				F814A5DE2443AE3A00D0AAF8 /* ContactTracing.h */,
 				F814A5DF2443AE3A00D0AAF8 /* Info.plist */,
 				F814A5FF2443B71800D0AAF8 /* Types */,
@@ -112,6 +147,31 @@
 			path = Types;
 			sourceTree = "<group>";
 		};
+		F8D32569244D3E0B007CD35F /* Objc */ = {
+			isa = PBXGroup;
+			children = (
+				F8D3256A244D3E3A007CD35F /* CTStateGetRequest.h */,
+				F8D3256B244D3E3A007CD35F /* CTStateGetRequest.m */,
+				F8D3256E244D40B7007CD35F /* CTStateSetRequest.h */,
+				F8D3256F244D40B7007CD35F /* CTStateSetRequest.m */,
+				F8D32572244D40E6007CD35F /* CTErrorHandler.h */,
+				F8D32573244D44C6007CD35F /* CTExposureDetectionSession.h */,
+				F8D32574244D44C6007CD35F /* CTExposureDetectionSession.m */,
+				F8D32577244D4661007CD35F /* CTExposureDetectionSummary.h */,
+				F8D32578244D4661007CD35F /* CTExposureDetectionSummary.m */,
+				F8D3257B244D469D007CD35F /* CTSelfTracingInfoRequest.h */,
+				F8D3257C244D469E007CD35F /* CTSelfTracingInfoRequest.m */,
+				F8D3257F244D4747007CD35F /* CTSelfTracingInfo.h */,
+				F8D32580244D4747007CD35F /* CTSelfTracingInfo.m */,
+				F8D32583244D4775007CD35F /* CTContactInfo.h */,
+				F8D32584244D4775007CD35F /* CTContactInfo.m */,
+				F8D32587244D47B2007CD35F /* CTDailyTracingKey.h */,
+				F8D32588244D47B2007CD35F /* CTDailyTracingKey.m */,
+				F8D3258B244D4AD6007CD35F /* CTManagerState.h */,
+			);
+			path = Objc;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -119,7 +179,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8D3257D244D469E007CD35F /* CTSelfTracingInfoRequest.h in Headers */,
+				F8D3256C244D3E3A007CD35F /* CTStateGetRequest.h in Headers */,
+				F8D32581244D4747007CD35F /* CTSelfTracingInfo.h in Headers */,
+				F8D32589244D47B2007CD35F /* CTDailyTracingKey.h in Headers */,
+				F8D32570244D40B7007CD35F /* CTStateSetRequest.h in Headers */,
+				F8D32585244D4775007CD35F /* CTContactInfo.h in Headers */,
 				F814A5EC2443AE3A00D0AAF8 /* ContactTracing.h in Headers */,
+				F8D32575244D44C6007CD35F /* CTExposureDetectionSession.h in Headers */,
+				F8D32579244D4661007CD35F /* CTExposureDetectionSummary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,10 +292,18 @@
 			files = (
 				F814A5F82443B65E00D0AAF8 /* DailyTracingKey.swift in Sources */,
 				F814A5FC2443B69000D0AAF8 /* DayNumber.swift in Sources */,
+				F8D3256D244D3E3A007CD35F /* CTStateGetRequest.m in Sources */,
+				F8D32571244D40B7007CD35F /* CTStateSetRequest.m in Sources */,
+				F8D3257A244D4661007CD35F /* CTExposureDetectionSummary.m in Sources */,
+				F8D32576244D44C6007CD35F /* CTExposureDetectionSession.m in Sources */,
 				F814A5F62443B64F00D0AAF8 /* TracingKey.swift in Sources */,
+				F8D3258A244D47B2007CD35F /* CTDailyTracingKey.m in Sources */,
 				F814A5FA2443B66C00D0AAF8 /* RollingProximityIdentifier.swift in Sources */,
 				F814A5FE2443B69E00D0AAF8 /* TimeIntervalNumber.swift in Sources */,
 				F814A6012443C22500D0AAF8 /* ContiguousBytes+Data.swift in Sources */,
+				F8D3257E244D469E007CD35F /* CTSelfTracingInfoRequest.m in Sources */,
+				F8D32586244D4775007CD35F /* CTContactInfo.m in Sources */,
+				F8D32582244D4747007CD35F /* CTSelfTracingInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

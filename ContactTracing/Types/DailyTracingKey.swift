@@ -20,7 +20,7 @@ import CryptoKit
 struct DailyTracingKey {
     let prefix = "CT-DTK"
     let size = 16
-    let key: SymmetricKey
+//    let key: SymmetricKey
     let date: Date
     let dayNumber: DayNumber
 
@@ -34,9 +34,9 @@ struct DailyTracingKey {
 
 //        guard let data = hkdf_sha256(tracingKey.key.dataRepresentation, salt: nil, info: info, outputSize: size) else { fatalError() }
 
-        guard let data = tracingKey.secret.hkdfDerivedSymmetricKey(using: <#T##HashFunction.Protocol#>, salt: <#T##DataProtocol#>, sharedInfo: <#T##DataProtocol#>, outputByteCount: <#T##Int#>)
-            , salt: nil, info: info, outputSize: size) else { fatalError() }
-        key = SymmetricKey(data: data)
+//        guard let data = tracingKey.secret.hkdfDerivedSymmetricKey(using: <#T##HashFunction.Protocol#>, salt: <#T##DataProtocol#>, sharedInfo: <#T##DataProtocol#>, outputByteCount: <#T##Int#>)
+//            , salt: nil, info: info, outputSize: size) else { fatalError() }
+//        key = SymmetricKey(data: data)
 
         self.date = Date()
         self.dayNumber = dayNumber

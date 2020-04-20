@@ -22,6 +22,28 @@ These documents are linked to from the above blog post.
 - [Cryptography and Your Apps](https://developer.apple.com/videos/play/wwdc2019/709) WWDC video
 - [Apple CryptoKit](https://developer.apple.com/documentation/cryptokit)
 
+## Overview
+
+The ContactTracing Framework is designed to help developers implement a privacy- preserving contact tracing solution. It covers two user roles:
+
+1. __Affected User__. A user who reports themself as positively diagnosed as having the virus.
+2. __Exposed User__. A user who has notified themself as potentially exposed to an Affected User.
+
+### Affected User
+
+When a user is positively affected, their Daily Tracing Keys should be shared with other uses to alert them to potential exposure. These Daily Tracing Keys are retrieved using CTSelfTracingInfoRequest.
+
+### Exposed User
+
+Given a set of positively affected Daily Tracing Keys, the framework allows you to
+determine whether those Daily Tracing Keys were observed locally by the user,
+indicating potential exposure. If so, additional information such as date and
+duration may also be retrieved. Possible observations can be retrieved using
+`CTExposureDetectionFinishHandler`, and additional information using
+`CTExposureDetectionContactHandler`.
+
+The following illustration outlines the flow of the ContactTracing Framework for iOS.
+
 ## 📄 License
 
 This repo is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for rights and limitations.
